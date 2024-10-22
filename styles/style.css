@@ -5,14 +5,14 @@
   outline: none;
   -webkit-tap-highlight-color: transparent;
   opacity: 100%;
-  /* transition: 0.25s; */
+ 
 }
 
 .mobile-navbar {
   display: none;
 }
 .mobile-navbar1 {
-  /* display: none; */
+ 
   display: contents;
   background: rgba(0, 0, 0, 0.375);
   text-align: center;
@@ -45,18 +45,18 @@ body {
 }
 
 .navbar {
-  /* background: #212a51; */
+ 
   background: rgba(0, 0, 0, 0.375);
   text-align: right;
   opacity: 100%;
   transition: 0.3s;
 }
 
-/* START OF MOBILE STYLES */
+
 
 .mobile-navbar {
   list-style-type: none;
-  /* background: rgba(0, 0, 0, 1.0); */
+ 
   opacity: 100%;
   transition: 0.3s;
 }
@@ -82,7 +82,7 @@ body {
   color: lightgrey;
 }
 
-/* END OF MOBILE STYLES */
+
 
 ul {
   margin: 0;

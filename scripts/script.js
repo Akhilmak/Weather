@@ -61,10 +61,8 @@ window.onload = function () {
   restoreValues();
 };
 
-// Mock function to send email alert
 function checkTemperature() {
   if (temperature > parseFloat(temperatureThreshold.value)) {
-    // sendEmailAlert(temperature);
     alert(
       `Alert! Current temperature (${temperature} °C) exceeds the set threshold (${temperatureThreshold.value} °C)!`
     );
@@ -77,7 +75,6 @@ function startCheckingTemperature(interval) {
   // Set a new interval to check temperature
   checkInterval = setInterval(function () {
     if (temperature !== undefined) {
-      // Check if temperature has been set
       checkTemperature();
     }
   }, interval);
@@ -117,10 +114,6 @@ cityInput.addEventListener("keyup", function (event) {
       parentElement1.appendChild(img1);
       parentElement2.appendChild(img2);
       parentElement3.appendChild(img3);
-
-      // document.getElementById("loader1").src = "icons/loader.gif";
-      // document.getElementById("loader2").src = "icons/loader.gif";
-      // document.getElementById("loader3").src = "icons/loader.gif";
     }
 
     var cityInputValue = cityInput.value;

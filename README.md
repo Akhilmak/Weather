@@ -20,6 +20,11 @@ To use the OpenWeatherMap API, you need to obtain an API key. Follow these steps
 const API_KEY = 'YOUR_API_KEY';
 ```
 
+## Accessing Threshold
+
+- To use Threshold limit first search for a city and then set the threshold value
+- The defalut alert timing is 10 sec you can change the time by changing the value in startCheckingTemperature function's parameter in srcipt.js file.
+
 ## Screenshots
 
 ![sample-screenshot](/screenshots/1.png)
